@@ -1,7 +1,41 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+ 
+  margin: 0 ;
+  padding:0;
   text-align: center;
+  background-color: #212529;
+
+}
+body{
+  margin:0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+
 }
 
+.section1 {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding:0 48px;
+
+}
+.section1-content {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 30px;
+  font-size: 28px;
+  
+}
+.line {
+  border-right: 1px solid white;
+  height: 40px;
+  
+  
+}
+
+.hero{
+  height:100vh;
+}
