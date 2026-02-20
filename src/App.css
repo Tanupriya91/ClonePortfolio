@@ -57,11 +57,39 @@ body {
   font-weight: 100;
 }
 
-
-.section {
+.about {
+  display: flex;
   align-items: center;
-  color: white;
-  font-size: 3rem;
+  justify-content: space-between;
   
 }
-.section span {}
+.about-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+ 
+}
+.about-text p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 400px;
+  padding-right: 300px;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+  padding-right: 300px;
+  border: #19f28a;
+  border-radius: 2px;
+}
+
+

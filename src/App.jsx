@@ -1,8 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-// import Projects from "./components/Projects";
+
+import Project from "./components/Project";
 // import Skills from "./components/Skills";
 import About from "./components/About";
+
+
 import Contacts from "./components/Contacts";
 
 import "./App.css";
@@ -13,9 +16,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      {/* <Projects /> */}
+      <Project />
       {/* <Skills /> */}
       <Contacts />
+      
     </>
   );
 }
