@@ -10,7 +10,7 @@ function Project() {
           <div className="l1-content">
             <p>
               A web app that scrapes information from Indian pc component stores
-              and displays them to the user. It can also give price drop alerts
+              and displays them to the user.It can also give price drop alerts
               to users. (ongoing)
             </p>
           </div>
